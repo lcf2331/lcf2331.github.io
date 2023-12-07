@@ -1,0 +1,44 @@
+body,
+h1,
+h2,
+p,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+}
+
+.training-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #3498db;
+}
+
+.training-table caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.training-table th,
+.training-table td {
+    border: 1px solid #3498db;
+    padding: 8px;
+    text-align: left;
+}
+
+.training-table th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.training-table tbody tr:nth-child(even) {
+    background-color: #d5d5d5;
+}
+
+.training-table tbody tr:hover {
+    background-color: #d1e0f0;
+}

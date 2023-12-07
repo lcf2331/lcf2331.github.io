@@ -1,0 +1,232 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body,
+header,
+.logo,
+.header_nav,
+nav,
+main,
+.slogan,
+.left-container,
+.right-container,
+footer,
+footer p,
+nav ul,
+.container {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #dddddd4d;
+}
+
+/* css for header  */
+
+header {
+    background-color: #3d1f00d6;
+    height: 60px;
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.logo {
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo img {
+    max-height: 100%;
+    display: block;
+}
+
+.header_nav {
+    float: right;
+    /* max-width: 100%; */
+}
+
+.header_nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.header_nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.header_nav ul li input {
+    width: 240px;
+    height: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* css for navitagion */
+
+nav {
+    position: sticky;
+    top: 0;
+    /* background-color: #dfe8e7; */
+    background-color: #dddddd;
+    padding: 5px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* CSS for Main Body */
+
+.slogan {
+    margin-top: -42px;
+    height: 600px;
+    background-size: cover;
+    background-image: url(/images/index.jpg);
+}
+
+.slogan h2 {
+    text-align: center;
+    padding-top: 390px;
+    color: brown;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+}
+
+.grid-contaier {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+}
+
+.grid-item {
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: #dfe8e7;
+}
+
+.grid-item:hover {
+    background: #ccd5d4;
+}
+
+.grid-item img {
+    width: 400px;
+}
+
+.grid-item h3 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.grid-item a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    padding: 30px;
+}
+
+.left-container {
+    float: left;
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: #dfe8e7;
+    text-align: center;
+}
+
+.left-container ul {
+    text-align: left;
+}
+
+.right-container {
+    float: right;
+    padding: 20px;
+    border-radius: 5%;
+    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+    background: #dfe8e7;
+    text-align: center;
+}
+
+.right-container .grid-contaier {
+    gap: 20px;
+}
+
+.right-container .grid-contaier .grid-item img {
+    width: 200px;
+    height: 250px;
+    background: white;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.grid-item button {
+    width: 100px;
+    padding: 10px;
+}
+
+.left-container button {
+    width: 100px;
+    padding: 10px;
+}
+
+
+/* css for footer */
+
+footer {
+    background-color: #3d1f00d6;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer p {
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

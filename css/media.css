@@ -1,0 +1,13 @@
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+video,
+audio {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4%;
+}

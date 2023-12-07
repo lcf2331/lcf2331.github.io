@@ -1,0 +1,81 @@
+/* styles for the desktop viewport */
+.viewport-desktop {
+    padding: 50px;
+    text-align: center;
+}
+
+.reasons-to-shop {
+    margin: auto;
+}
+
+.reasons-to-shop ol li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.reasons-to-shop ol li img {
+    width: 380px;
+    height: 380px;
+}
+
+/* Add styles for the tablet viewport */
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        padding: 0px;
+        font-size: 0.1em;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    .logo img {
+        margin: auto;
+    }
+
+    .header_nav {
+        display: hidden;
+    }
+
+    .reasons-to-shop ol li img {
+        width: 250px;
+        height: 250px;
+    }
+
+    nav {
+        padding: 1px;
+        font-size: 0.75em;
+    }
+}
+
+/* Add styles for the mobile viewport */
+@media (max-width: 480px) {
+
+    header {
+        width: 100%;
+        padding: 0px;
+        font-size: 0.1em;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    .logo img {
+        margin: auto;
+    }
+
+    .header_nav {
+        display: hidden;
+    }
+
+    .mobile-nav ul li {
+        text-align: center;
+        display: block;
+    }
+
+}
